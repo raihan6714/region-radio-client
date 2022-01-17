@@ -8,7 +8,7 @@ import sign3 from "../../../images/sign3.png";
 import mouse from "../../../images/mouse.png";
 const Slider = () => {
   return (
-    <div id="main">
+    <div>
       <div id="home" className="">
         <div id="slides_wrapper" className="">
           <div id="slides">

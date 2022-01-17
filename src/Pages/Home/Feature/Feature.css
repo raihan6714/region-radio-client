@@ -1,0 +1,24 @@
+.audio1 .mejs-controls .mejs-cust1-button button {
+  background: url("https://i.ibb.co/MMYfX7d/btn-prev.png") center center
+    no-repeat;
+}
+
+/* .audio1 .mejs-controls .mejs-playpause-button {
+} */
+.audio1 .mejs-controls .mejs-play button {
+  background: url("https://i.ibb.co/3vJVg1W/btn-play.png") center center
+    no-repeat;
+}
+/* .audio1 .mejs-controls .mejs-play button:hover {
+} */
+.audio1 .mejs-controls .mejs-pause button {
+  background: url("https://i.ibb.co/rkRGK00/btn-pause.png") center center
+    no-repeat;
+}
+/* .audio1 .mejs-controls .mejs-pause button:hover {
+} */
+
+.audio1 .mejs-controls .mejs-cust2-button button {
+  background: url("https://i.ibb.co/487YkWw/btn-next.png") center center
+    no-repeat;
+}
