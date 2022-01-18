@@ -12,21 +12,21 @@ const Header = () => {
           <div className="header-inner clearfix">
             <header>
               <div className="logo_wrapper">
-                <a href="index.html" className="logo">
+                <a href="/" className="logo">
                   <img src={logo} alt="" className="img-fluid" />
                 </a>
               </div>
             </header>
             <div className="my_cart_wrapper">
               <div className="my_cart_button">
-                <a href="#">
+                <a href="/">
                   <i className="" aria-hidden="true"></i>
                   <span>2</span>
                 </a>
               </div>
               <div className="my_cart_popup">
                 <div className="my_cart_item clearfix">
-                  <a href="#" className="my_cart_item_close">
+                  <a href="/" className="my_cart_item_close">
                     <i className="fa fa-times"></i>
                   </a>
                   <figure>
@@ -35,12 +35,12 @@ const Header = () => {
                   <div className="caption">
                     <div className="txt1">£460.00 x 1</div>
                     <div className="txt2">
-                      <a href="#">Kabino Bedside Table</a>
+                      <a href="/">Kabino Bedside Table</a>
                     </div>
                   </div>
                 </div>
                 <div className="my_cart_item clearfix">
-                  <a href="#" className="my_cart_item_close">
+                  <a href="/" className="my_cart_item_close">
                     <i className="fa fa-times"></i>
                   </a>
                   <figure>
@@ -49,12 +49,12 @@ const Header = () => {
                   <div className="caption">
                     <div className="txt1">£460.00 x 1</div>
                     <div className="txt2">
-                      <a href="#">Kabino Bedside Table</a>
+                      <a href="/">Kabino Bedside Table</a>
                     </div>
                   </div>
                 </div>
                 <div className="my_cart_item clearfix">
-                  <a href="#" className="my_cart_item_close">
+                  <a href="/" className="my_cart_item_close">
                     <i className="fa fa-times"></i>
                   </a>
                   <figure>
@@ -63,7 +63,7 @@ const Header = () => {
                   <div className="caption">
                     <div className="txt1">£460.00 x 1</div>
                     <div className="txt2">
-                      <a href="#">Kabino Bedside Table</a>
+                      <a href="/">Kabino Bedside Table</a>
                     </div>
                   </div>
                 </div>
@@ -72,10 +72,10 @@ const Header = () => {
                   <div className="right">£460.00</div>
                 </div>
                 <div className="my_cart_buttons">
-                  <NavLink to="cart.html" className="my_cart_button2">
+                  <NavLink to="/cart" className="my_cart_button2">
                     View Cart
                   </NavLink>
-                  <a href="checkout.html" className="my_cart_button2">
+                  <a href="/checkout" className="my_cart_button2">
                     Check Out
                   </a>
                 </div>
@@ -99,32 +99,32 @@ const Header = () => {
               >
                 <ul className="nav navbar-nav sf-menu clearfix">
                   <li className="nav-item">
-                    <NavLink to="index.html" className="active nav-link">
+                    <NavLink to="/home" className="active nav-link">
                       Home
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to="about.html" className="nav-link">
+                    <NavLink to="/about" className="nav-link">
                       About
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to="channels.html" className="nav-link">
+                    <NavLink to="/channels" className="nav-link">
                       Chanels
                     </NavLink>
                   </li>
                   <li className="nav-item sub-menu">
-                    <a href="#" className="nav-link">
+                    <a href="/" className="nav-link">
                       Pages{" "}
                       <i className="fa fa-caret-down" aria-hidden="true"></i>
                     </a>
                     <div className="sf-mega">
                       <ul>
                         <li>
-                          <a href="collection.html">Music Collection</a>
+                          <a href="/collection">Music Collection</a>
                         </li>
                         <li>
-                          <NavLink to="blog.html">
+                          <NavLink to="/blog">
                             Blog Right side
                             <i
                               className="fa fa-angle-right"
@@ -134,15 +134,13 @@ const Header = () => {
                           <div className="sf-mega">
                             <ul>
                               <li>
-                                <NavLink to="post.html">
-                                  Post Right side
-                                </NavLink>
+                                <NavLink to="/post">Post Right side</NavLink>
                               </li>
                             </ul>
                           </div>
                         </li>
                         <li>
-                          <NavLink to="blog-left.html">
+                          <NavLink to="/blog-left">
                             Blog Left Side
                             <i
                               className="fa fa-angle-right"
@@ -152,7 +150,7 @@ const Header = () => {
                           <div className="sf-mega">
                             <ul>
                               <li>
-                                <NavLink to="post-left.html">
+                                <NavLink to="/post-left">
                                   Post Left side
                                 </NavLink>
                               </li>
@@ -160,24 +158,24 @@ const Header = () => {
                           </div>
                         </li>
                         <li>
-                          <NavLink to="details.html">Product Detail</NavLink>
+                          <NavLink to="/details">Product Detail</NavLink>
                         </li>
                         <li>
-                          <NavLink to="cart.html">Shopping cart</NavLink>
+                          <NavLink to="/cart">Shopping cart</NavLink>
                         </li>
                         <li>
-                          <NavLink to="checkout.html">Check out</NavLink>
+                          <NavLink to="/checkout">Check out</NavLink>
                         </li>
                       </ul>
                     </div>
                   </li>
                   <li className="nav-item">
-                    <NavLink to="shop.html" className="nav-link">
+                    <NavLink to="/shop" className="nav-link">
                       Shop
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to="contact.html" className="nav-link">
+                    <NavLink to="/contact" className="nav-link">
                       Contact
                     </NavLink>
                   </li>

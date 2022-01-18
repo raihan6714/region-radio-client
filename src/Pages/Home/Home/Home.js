@@ -3,8 +3,8 @@ import Artist from "../Artist/Artist";
 import Map from "../Map/Map";
 import Events from "../Events/Events";
 import Feature from "../Feature/Feature";
-import Slider from "../Slider/Slider";
 import Subscribe from "../Subscribe/Subscribe";
+import Slider from "../../Slider/Slider";
 
 const Home = () => {
   return (

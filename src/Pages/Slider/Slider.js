@@ -1,11 +1,11 @@
 import React from "react";
-import sliderOne from "../../../images/slide01.jpg";
-import sliderTwo from "../../../images/slide03.jpg";
-import sliderThree from "../../../images/slide04.jpg";
-import sign1 from "../../../images/sign1.png";
-import sign2 from "../../../images/sign2.png";
-import sign3 from "../../../images/sign3.png";
-import mouse from "../../../images/mouse.png";
+import sliderOne from "../../images/slide01.jpg";
+import sliderTwo from "../../images/slide03.jpg";
+import sliderThree from "../../images/slide04.jpg";
+import sign1 from "../../images/sign1.png";
+import sign2 from "../../images/sign2.png";
+import sign3 from "../../images/sign3.png";
+import mouse from "../../images/mouse.png";
 const Slider = () => {
   return (
     <div>

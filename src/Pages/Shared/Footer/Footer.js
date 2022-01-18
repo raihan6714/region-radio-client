@@ -1,5 +1,6 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
+import logo2 from "../../../images/logo2.png";
 const Footer = () => {
   return (
     <div>
@@ -8,28 +9,28 @@ const Footer = () => {
           <div className="bot1 clearfix">
             <div className="logo2_wrapper">
               <a href="index.html" className="logo2">
-                <img src="images/logo2.png" alt="" className="img-fluid" />
+                <img src={logo2} alt="" className="img-fluid" />
               </a>
             </div>
             <div className="social-footer-wrapper">
               <ul className="social-footer clearfix">
                 <li>
-                  <a href="#">
+                  <a href="/">
                     <i className="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/">
                     <i className="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/">
                     <i className="fa fa-google-plus"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/">
                     <i className="fa fa-pinterest"></i>
                   </a>
                 </li>
@@ -46,27 +47,27 @@ const Footer = () => {
             <div className="footborder"></div>
             <ul className="menu-bot">
               <li>
-                <a href="#">Home</a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <a href="#">About</a>
+                <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                <a href="#">Chanels</a>
+                <NavLink to="/chanels">Chanels</NavLink>
               </li>
               <li>
-                <a href="#">Shop</a>
+                <NavLink to="/shop">Shop</NavLink>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <NavLink to="/blog">Blog</NavLink>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <NavLink to="contact">Contact</NavLink>
               </li>
             </ul>
             <div className="copyrights">
               Copyright @2021{" "}
-              <a href="#" target="_blank">
+              <a href="/" target="_blank">
                 Mecovache
               </a>
               . All rights Revierves Inc.
