@@ -146,10 +146,10 @@ const Breadcrumb = () => {
                     </Link>
                   </li>
                   <li className="nav-item sub-menu">
-                    <Link to="/" className="nav-link">
+                    <a href="#" className="nav-link">
                       Pages{" "}
                       <i className="fa fa-caret-down" aria-hidden="true"></i>
-                    </Link>
+                    </a>
                     <div className="sf-mega">
                       <ul>
                         <li>

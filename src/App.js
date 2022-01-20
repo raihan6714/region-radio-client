@@ -4,6 +4,7 @@ import Home from "./Pages/Home/Home/Home";
 import Footer from "./Pages/Shared/Footer/Footer";
 import AboutUs from "./Pages/About/AboutUs/AboutUs";
 import Channels from "./Pages/Channels/Channels";
+import Collections from "./Pages/Collections/Collections";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/home" element={<Home />}></Route>
           <Route path="/about" element={<AboutUs />}></Route>
           <Route path="/channels" element={<Channels />}></Route>
+          <Route path="/collection" element={<Collections />}></Route>
         </Routes>
         <Footer />
       </Router>
