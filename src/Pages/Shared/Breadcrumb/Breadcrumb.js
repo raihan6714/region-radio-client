@@ -51,51 +51,51 @@ const Breadcrumb = () => {
             </header>
             <div className="my_cart_wrapper">
               <div className="my_cart_button">
-                <a href="/">
+                <Link to="/">
                   <i className="" aria-hidden="true"></i>
                   <span>2</span>
-                </a>
+                </Link>
               </div>
               <div className="my_cart_popup">
                 <div className="my_cart_item clearfix">
-                  <a href="/" className="my_cart_item_close">
+                  <Link to="/" className="my_cart_item_close">
                     <i className="fa fa-times"></i>
-                  </a>
+                  </Link>
                   <figure>
                     <img src={cart01} alt="" className="img-fluid" />
                   </figure>
                   <div className="caption">
                     <div className="txt1">£460.00 x 1</div>
                     <div className="txt2">
-                      <a href="/">Kabino Bedside Table</a>
+                      <Link to="/">Kabino Bedside Table</Link>
                     </div>
                   </div>
                 </div>
                 <div className="my_cart_item clearfix">
-                  <a href="/" className="my_cart_item_close">
+                  <Link to="/" className="my_cart_item_close">
                     <i className="fa fa-times"></i>
-                  </a>
+                  </Link>
                   <figure>
                     <img src={cart02} alt="" className="img-fluid" />
                   </figure>
                   <div className="caption">
                     <div className="txt1">£460.00 x 1</div>
                     <div className="txt2">
-                      <a href="/">Kabino Bedside Table</a>
+                      <Link to="/">Kabino Bedside Table</Link>
                     </div>
                   </div>
                 </div>
                 <div className="my_cart_item clearfix">
-                  <a href="/" className="my_cart_item_close">
+                  <Link to="/" className="my_cart_item_close">
                     <i className="fa fa-times"></i>
-                  </a>
+                  </Link>
                   <figure>
                     <img src={cart03} alt="" className="img-fluid" />
                   </figure>
                   <div className="caption">
                     <div className="txt1">£460.00 x 1</div>
                     <div className="txt2">
-                      <a href="/">Kabino Bedside Table</a>
+                      <Link to="/">Kabino Bedside Table</Link>
                     </div>
                   </div>
                 </div>
@@ -131,25 +131,25 @@ const Breadcrumb = () => {
               >
                 <ul className="nav navbar-nav sf-menu clearfix">
                   <li className="nav-item">
-                    <a href="index" className="nav-link">
+                    <Link to="/" className="nav-link">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="about" className="active nav-link">
+                    <Link to="/about" className="active nav-link">
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="channels" className="nav-link">
+                    <Link to="/channels" className="nav-link">
                       Chanels
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item sub-menu">
-                    <a href="/" className="nav-link">
+                    <Link to="/" className="nav-link">
                       Pages{" "}
                       <i className="fa fa-caret-down" aria-hidden="true"></i>
-                    </a>
+                    </Link>
                     <div className="sf-mega">
                       <ul>
                         <li>
@@ -212,16 +212,6 @@ const Breadcrumb = () => {
                 </ul>
               </div>
             </nav>
-          </div>
-        </div>
-      </div>
-      <div className="breadcrumbs1_wrapper">
-        <div className="container">
-          <div className="breadcrumbs1">
-            <Link to="/home">
-              <i className="fa fa-home" aria-hidden="true"></i>
-            </Link>
-            <span>/</span>about us
           </div>
         </div>
       </div>

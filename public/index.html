@@ -21,6 +21,8 @@
     <link href="assets/css/owl.carousel.css" rel="stylesheet" />
     <link href="assets/css/mediaelementplayer.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
+
+    <link href="assets/Core/css/shiPlayer.css" rel="stylesheet" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -41,5 +43,56 @@
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script src="assets/Core/js/shiPlayer.js"></script>
+    <script>
+      $("#radio1").shiPlayer({
+        type: "SHOUTCAST",
+        URL: "http://80sbeats.cyberbeats.net:8000",
+        radio_logo: "assets/Core/img/logo2.png",
+        default_image: "images/channel1.jpg",
+      });
+      $("#radio2").shiPlayer({
+        type: "icecast",
+        URL: "http://relay-chi.gameowls.com:8000",
+        mount_point: "chiptune.mp3",
+        cors_proxy: "https://cors-anywhere.herokuapp.com/",
+      });
+      $("#radio3").shiPlayer({
+        type: "SHOUTCAST",
+        URL: "http://199.180.75.116:80",
+        radio_logo: "assets/Core/img/logo2.png",
+        default_image: "images/channel3.jpg",
+      });
+      $("#radio4").shiPlayer({
+        type: "icecast",
+        URL: "http://streaming210.radionomy.com:80",
+        mount_point: "chiptune.mp3",
+        cors_proxy: "https://cors-anywhere.herokuapp.com/",
+      });
+      $("#radio5").shiPlayer({
+        type: "SHOUTCAST",
+        URL: "http://178.33.232.106:8046",
+        radio_logo: "assets/Core/img/logo2.png",
+        default_image: "images/channel5.jpg",
+      });
+      $("#radio6").shiPlayer({
+        type: "icecast",
+        URL: "http://91.213.69.202:8029",
+        mount_point: "chiptune.mp3",
+        cors_proxy: "https://cors-anywhere.herokuapp.com/",
+      });
+      $("#radio7").shiPlayer({
+        type: "SHOUTCAST",
+        URL: "http://217.120.175.194:8010/2",
+        radio_logo: "assets/Core/img/logo2.png",
+        default_image: "images/channel7.jpg",
+      });
+      $("#radio8").shiPlayer({
+        type: "icecast",
+        URL: "http://195.154.168.210:8032/;stream.mp3",
+        mount_point: "chiptune.mp3",
+        cors_proxy: "https://cors-anywhere.herokuapp.com/",
+      });
+    </script>
   </body>
 </html>
