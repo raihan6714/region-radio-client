@@ -258,7 +258,7 @@ const Shop = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="product-wrapper">
-                    <a href="details.html">
+                    <a href="/">
                       <div className="product-inner clearfix">
                         <div className="product clearfix">
                           <div className="product-stars">
@@ -285,7 +285,7 @@ const Shop = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="product-wrapper">
-                    <a href="details.html">
+                    <a href="/">
                       <div className="product-inner clearfix">
                         <div className="product clearfix">
                           <div className="product-stars">
@@ -315,7 +315,7 @@ const Shop = () => {
               <div className="row">
                 <div className="col-md-4">
                   <div className="product-wrapper">
-                    <a href="details.html">
+                    <a href="/">
                       <div className="product-inner clearfix">
                         <div className="product clearfix">
                           <div className="product-stars">
@@ -342,7 +342,7 @@ const Shop = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="product-wrapper">
-                    <a href="details.html">
+                    <a href="/">
                       <div className="product-inner clearfix">
                         <div className="product clearfix">
                           <div className="product-stars">
@@ -369,7 +369,7 @@ const Shop = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="product-wrapper">
-                    <a href="details.html">
+                    <a href="/">
                       <div className="product-inner clearfix">
                         <div className="product clearfix">
                           <div className="product-stars">
@@ -399,7 +399,7 @@ const Shop = () => {
               <div className="row">
                 <div className="col-md-4">
                   <div className="product-wrapper">
-                    <a href="details.html">
+                    <a href="/">
                       <div className="product-inner clearfix">
                         <div className="product clearfix">
                           <div className="product-stars">
@@ -426,7 +426,7 @@ const Shop = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="product-wrapper">
-                    <a href="details.html">
+                    <a href="/">
                       <div className="product-inner clearfix">
                         <div className="product clearfix">
                           <div className="product-stars">
@@ -453,7 +453,7 @@ const Shop = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="product-wrapper">
-                    <a href="details.html">
+                    <a href="/">
                       <div className="product-inner clearfix">
                         <div className="product clearfix">
                           <div className="product-stars">
