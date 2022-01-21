@@ -6,6 +6,7 @@ import AboutUs from "./Pages/About/AboutUs/AboutUs";
 import Channels from "./Pages/Channels/Channels";
 import Collections from "./Pages/AllPages/Collections/Collections";
 import Details from "./Pages/AllPages/Details/Details";
+import ShoppingCart from "./Pages/AllPages/ShoppingCart/ShoppingCart";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/channels" element={<Channels />}></Route>
           <Route path="/collection" element={<Collections />}></Route>
           <Route path="/details" element={<Details />}></Route>
+          <Route path="/cart" element={<ShoppingCart />}></Route>
         </Routes>
         <Footer />
       </Router>
