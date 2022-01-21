@@ -7,138 +7,162 @@ const ShoppingCart = () => {
   return (
     <div>
       <Breadcrumb />
-      <div class="breadcrumbs1_wrapper">
-        <div class="container">
-          <div class="breadcrumbs1">
+      <div className="breadcrumbs1_wrapper">
+        <div className="container">
+          <div className="breadcrumbs1">
             <Link to="/">
-              <i class="fa fa-home" aria-hidden="true"></i>
+              <i className="fa fa-home" aria-hidden="true"></i>
             </Link>
             <span>/</span>Shopping cart
           </div>
         </div>
-        <div id="content" class="page-section">
-          <div class="container">
-            <div class="title1">
+        <div id="content" className="page-section">
+          <div className="container">
+            <div className="title1">
               . <span>shopping cart</span> .
             </div>
 
-            <div class="title2">
+            <div className="title2">
               Sed pharetra nunc ultrices, elementum velit fringilla, fringilla
               risus. Phase llus cursus est et nunc sagittis
               <br />
               consectetur ac quis ante
             </div>
 
-            <div class="table-responsive table-responsive3">
-              <table class="table table3">
+            <div className="table-responsive table-responsive3">
+              <table className="table table3">
                 <tbody>
                   <tr>
-                    <td class="col1">
-                      <div class="cart-img">
-                        <img src={checkout01} alt="" class="img-fluid" />
+                    <td className="col1">
+                      <div className="cart-img">
+                        <img src={checkout01} alt="" className="img-fluid" />
                       </div>
                     </td>
-                    <td class="col2">
-                      <div class="cart-caption">Men's Silas Backpack</div>
+                    <td className="col2">
+                      <div className="cart-caption">Men's Silas Backpack</div>
                     </td>
-                    <td class="col3">
-                      <div class="cart-price">
+                    <td className="col3">
+                      <div className="cart-price">
                         <span>$295.00</span>
                       </div>
                     </td>
-                    <td class="col4">
-                      <div class="cart-input">
-                        <div class="quantity">
-                          <button class="dec quantity-button">-</button>
-                          <input class="quantity-input" type="text" value="1" />
-                          <button class="inc quantity-button">+</button>
+                    <td className="col4">
+                      <div className="cart-input">
+                        <div className="quantity">
+                          <button className="dec quantity-button">-</button>
+                          <input
+                            className="quantity-input"
+                            type="text"
+                            value="1"
+                          />
+                          <button className="inc quantity-button">+</button>
                         </div>
                       </div>
                     </td>
-                    <td class="col5">
-                      <div class="cart-total">
+                    <td className="col5">
+                      <div className="cart-total">
                         <span>$295.00</span>
                       </div>
                     </td>
-                    <td class="col6">
-                      <div class="cart-close">
-                        <button type="button" class="close" aria-label="Close">
+                    <td className="col6">
+                      <div className="cart-close">
+                        <button
+                          type="button"
+                          className="close"
+                          aria-label="Close"
+                        >
                           <span aria-hidden="true">×</span>
                         </button>
                       </div>
                     </td>
                   </tr>
                   <tr>
-                    <td class="col1">
-                      <div class="cart-img">
-                        <img src={checkout02} alt="" class="img-fluid" />
+                    <td className="col1">
+                      <div className="cart-img">
+                        <img src={checkout02} alt="" className="img-fluid" />
                       </div>
                     </td>
-                    <td class="col2">
-                      <div class="cart-caption">Money Walet</div>
+                    <td className="col2">
+                      <div className="cart-caption">Money Walet</div>
                     </td>
-                    <td class="col3">
-                      <div class="cart-price">
+                    <td className="col3">
+                      <div className="cart-price">
                         <span>$64.00</span>
                       </div>
                     </td>
-                    <td class="col4">
-                      <div class="cart-input">
-                        <div class="quantity">
-                          <button class="dec quantity-button">-</button>
-                          <input class="quantity-input" type="text" value="2" />
-                          <button class="inc quantity-button">+</button>
+                    <td className="col4">
+                      <div className="cart-input">
+                        <div className="quantity">
+                          <button className="dec quantity-button">-</button>
+                          <input
+                            className="quantity-input"
+                            type="text"
+                            value="2"
+                          />
+                          <button className="inc quantity-button">+</button>
                         </div>
                       </div>
                     </td>
-                    <td class="col5">
-                      <div class="cart-total">
+                    <td className="col5">
+                      <div className="cart-total">
                         <span>$128.00</span>
                       </div>
                     </td>
-                    <td class="col6">
-                      <div class="cart-close">
-                        <button type="button" class="close" aria-label="Close">
+                    <td className="col6">
+                      <div className="cart-close">
+                        <button
+                          type="button"
+                          className="close"
+                          aria-label="Close"
+                        >
                           <span aria-hidden="true">×</span>
                         </button>
                       </div>
                     </td>
                   </tr>
                   <tr>
-                    <td class="col1">
-                      <div class="cart-img">
+                    <td className="col1">
+                      <div className="cart-img">
                         <img
                           src="images/checkout03.png"
                           alt=""
-                          class="img-fluid"
+                          className="img-fluid"
                         />
                       </div>
                     </td>
-                    <td class="col2">
-                      <div class="cart-caption">cloves</div>
+                    <td className="col2">
+                      <div className="cart-caption">cloves</div>
                     </td>
-                    <td class="col3">
-                      <div class="cart-price">
+                    <td className="col3">
+                      <div className="cart-price">
                         <span>$80.00</span>
                       </div>
                     </td>
-                    <td class="col4">
-                      <div class="cart-input">
-                        <div class="quantity">
-                          <button class="dec quantity-button">-</button>
-                          <input class="quantity-input" type="text" value="2" />
-                          <button class="inc quantity-button">+</button>
+                    <td className="col4">
+                      <div className="cart-input">
+                        <div className="quantity">
+                          <button className="dec quantity-button">-</button>
+                          <input
+                            className="quantity-input"
+                            type="text"
+                            value="2"
+                          />
+                          <button className="inc quantity-button">+</button>
                         </div>
                       </div>
                     </td>
-                    <td class="col5">
-                      <div class="cart-total">
+                    <td className="col5">
+                      <div className="cart-total">
                         <span>$160.00</span>
                       </div>
                     </td>
-                    <td class="col6">
-                      <div class="cart-close">
-                        <button type="button" class="close" aria-label="Close">
+                    <td className="col6">
+                      <div className="cart-close">
+                        <button
+                          type="button"
+                          className="close"
+                          aria-label="Close"
+                        >
                           <span aria-hidden="true">×</span>
                         </button>
                       </div>
@@ -148,49 +172,49 @@ const ShoppingCart = () => {
               </table>
             </div>
 
-            <div class="row">
-              <div class="col-md-6">
-                <div class="apply-coupon clearfix">
-                  <form class="clearfix form-dark">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="apply-coupon clearfix">
+                  <form className="clearfix form-dark">
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       placeholder="Enter your coupon code"
                       value=""
                     />
-                    <a href="#" class="">
+                    <a href="#" className="">
                       submit
                     </a>
                   </form>
                 </div>
-                <div class="title4 mt-5">calculate shipping</div>
-                <form action={{ javascript: "" }} class="form-dark form3">
-                  <div class="form-group">
+                <div className="title4 mt-5">calculate shipping</div>
+                <form action={{ javascript: "" }} className="form-dark form3">
+                  <div className="form-group">
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       name="country"
                       value=""
                       placeholder="Choose country for shipping"
                     />
                   </div>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-group">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div className="form-group">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           name="state"
                           value=""
                           placeholder="State / Country"
                         />
                       </div>
                     </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
+                    <div className="col-md-6">
+                      <div className="form-group">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           name="zip"
                           value=""
                           placeholder="Postcode / Zip"
@@ -198,39 +222,39 @@ const ShoppingCart = () => {
                       </div>
                     </div>
                   </div>
-                  <a href="#" class="update-totals">
+                  <a href="#" className="update-totals">
                     update totals
                   </a>
                 </form>
               </div>
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-md-6">
-                    <a href="#" class="update-cart">
+              <div className="col-md-6">
+                <div className="row">
+                  <div className="col-md-6">
+                    <a href="#" className="update-cart">
                       update cart
                     </a>
                   </div>
-                  <div class="col-md-6">
-                    <a href="#" class="proceed-to-checkout">
+                  <div className="col-md-6">
+                    <a href="#" className="proceed-to-checkout">
                       proceed to checkout
                     </a>
                   </div>
                 </div>
-                <div class="title4 mt-5">cart totals</div>
-                <div class="table-responsive table-responsive2 mb-0">
-                  <table class="table table2">
+                <div className="title4 mt-5">cart totals</div>
+                <div className="table-responsive table-responsive2 mb-0">
+                  <table className="table table2">
                     <tbody>
                       <tr>
-                        <td class="col1">cart subtotal:</td>
-                        <td class="col2">$583.00</td>
+                        <td className="col1">cart subtotal:</td>
+                        <td className="col2">$583.00</td>
                       </tr>
                       <tr>
-                        <td class="col1">shipping & handling:</td>
-                        <td class="col2">free shipping</td>
+                        <td className="col1">shipping & handling:</td>
+                        <td className="col2">free shipping</td>
                       </tr>
                       <tr>
-                        <td class="col1">order total:</td>
-                        <td class="col2">$583.00</td>
+                        <td className="col1">order total:</td>
+                        <td className="col2">$583.00</td>
                       </tr>
                     </tbody>
                   </table>
