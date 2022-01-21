@@ -1,9 +1,9 @@
 import React from "react";
-import Breadcrumb from "../Shared/Breadcrumb/Breadcrumb";
-import collection01 from "../../images/collection01.png";
-import collection02 from "../../images/collection02.png";
-import collection03 from "../../images/collection03.png";
-import collection04 from "../../images/collection04.png";
+import collection01 from "../../../images/collection01.png";
+import collection02 from "../../../images/collection02.png";
+import collection03 from "../../../images/collection03.png";
+import collection04 from "../../../images/collection04.png";
+import Breadcrumb from "../../Shared/Breadcrumb/Breadcrumb";
 const Collections = () => {
   return (
     <div>
@@ -158,37 +158,37 @@ const Collections = () => {
 
       <ul class="pagination">
         <li class="page-item">
-          <a class="page-link" href="#">
+          <a class="page-link" href="/">
             previous
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">
+          <a class="page-link" href="/">
             1
           </a>
         </li>
         <li class="page-item active">
-          <a class="page-link" href="#">
+          <a class="page-link" href="/">
             2
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">
+          <a class="page-link" href="/">
             3
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">
+          <a class="page-link" href="/">
             4
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">
+          <a class="page-link" href="/">
             ...
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">
+          <a class="page-link" href="/">
             next
           </a>
         </li>
