@@ -156,36 +156,7 @@ const Breadcrumb = () => {
                           <Link to="/collection">Music Collection</Link>
                         </li>
                         <li>
-                          <Link to="/blog">
-                            Blog Right side
-                            <i
-                              className="fa fa-angle-right"
-                              aria-hidden="true"
-                            ></i>
-                          </Link>
-                          <div className="sf-mega">
-                            <ul>
-                              <li>
-                                <Link to="/post">Post Right side</Link>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li>
-                          <Link to="/blogleft">
-                            Blog Left Side{" "}
-                            <i
-                              className="fa fa-angle-right"
-                              aria-hidden="true"
-                            ></i>
-                          </Link>
-                          <div className="sf-mega">
-                            <ul>
-                              <li>
-                                <Link to="postleft">Post Left side</Link>
-                              </li>
-                            </ul>
-                          </div>
+                          <Link to="/blog">Blog</Link>
                         </li>
                         <li>
                           <Link to="/details">Product Detail</Link>

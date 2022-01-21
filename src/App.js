@@ -8,6 +8,7 @@ import Collections from "./Pages/AllPages/Collections/Collections";
 import Details from "./Pages/AllPages/Details/Details";
 import ShoppingCart from "./Pages/AllPages/ShoppingCart/ShoppingCart";
 import Checkout from "./Pages/AllPages/Checkout/Checkout";
+import Blog from "./Pages/AllPages/Blog/Blog";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/details" element={<Details />}></Route>
           <Route path="/cart" element={<ShoppingCart />}></Route>
           <Route path="/checkout" element={<Checkout />}></Route>
+          <Route path="/blog" element={<Blog />}></Route>
         </Routes>
         <Footer />
       </Router>
